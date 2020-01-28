@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #607D8B;
+}
+
+.flex-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-right{
+  justify-content: flex-end;
+}
+
+.student-container{
+  margin-top: 3vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+    margin-bottom: 3vh;
+
+
+  #user_avatar{
+    width: 8vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  #studentSchoolarship{
+    font-weight: bold;
+  }
+
+  #studentName{
+    font-weight: bold;
+    font-size: 1.2vw;
+  }
+
+  #enrolledGraduateProgram{
+    font-weight: bold;
+    font-size: 1.5vw;
+  }
+
+  .more-info{
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+
+
+  #schoolRecords{
+    width: 40vw;
+    margin-left: 3vw;
+    th{
+      text-align: left;
+    }
+  }
+
+  #jobRecords{
+    width: 40vw;
+    margin-left: 3vw;
+    th{
+      text-align: left;
+    }
+  }
+
+}
+
+.card{
+  border: 1px solid #B0BEC5;
+}

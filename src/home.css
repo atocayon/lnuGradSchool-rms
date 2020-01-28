@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif; }
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.justify-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.justify-right {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+#session-container {
+  margin-top: 1vw;
+  margin-right: 2vw; }
+
+.avatar {
+  margin-top: 0.8vw;
+  width: 1.5vw; }
+
+.navbar {
+  background: #fff;
+  padding: 0.1vw;
+  -webkit-box-shadow: 2px 2px 2px #fafafa;
+  box-shadow: 2px 2px 2px #fafafa; }
+
+.sideBar {
+  background: #333;
+  width: 15vw;
+  height: 95vh; }
+  .sideBar a {
+    text-decoration: none;
+    color: #fafafa; }
+  .sideBar div {
+    padding: 1vw; }
+    .sideBar div:hover {
+      background: #fafafa; }
+      .sideBar div:hover a {
+        color: #000; }
+  .sideBar .home {
+    background: #37474F; }
+
+.home_content {
+  margin-left: 2vw;
+  margin-top: 1vw; }
+
+.manage_students_content {
+  margin-left: 2vw;
+  margin-top: 1vw; }
+  .manage_students_content .back-drop {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -1vw;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7); }
+
+.manage_students_table {
+  width: 60vw;
+  margin-top: 2vw; }
+  .manage_students_table th {
+    text-align: left;
+    padding: 0.5vw; }
+  .manage_students_table td {
+    padding: 0.2vw; }
+
+.search {
+  width: 10vw;
+  height: 1.5vw;
+  border: 1px solid #607D8B;
+  border-radius: 3px;
+  padding: 0.2vw; }
+
+.btn-search {
+  height: 2vw;
+  border-radius: 3px;
+  border: 1px solid #607D8B; }
+
+.btn-registration {
+  margin-left: 1.5vw;
+  height: 2vw;
+  border-radius: 3px;
+  border: 1px solid #00C853;
+  background: #00C853;
+  color: #fff; }
+
+.registration-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 50vw;
+  height: 100vh;
+  border: 1px solid #FAFAFA;
+  -webkit-box-shadow: 2px 2px 2px #FAFAFA;
+  box-shadow: 2px 2px 2px #FAFAFA;
+  background: #FAFAFA;
+  margin-left: 10%;
+  padding: 8px; }
+
+.avatar-registration {
+  width: 7vw; }
+
+.form-input-standard {
+  border: 1px solid #CFD8DC;
+  width: 45vw;
+  height: 1.5vw;
+  padding-left: 1vw;
+  border-radius: 5px; }
+
+.form-input-non-standard {
+  border: 1px solid #CFD8DC;
+  height: 1.5vw;
+  padding-left: 1vw;
+  border-radius: 5px; }
+
+.form-input-container {
+  margin-left: 2vw; }
+
+.nextButton {
+  margin-top: 2vw;
+  margin-right: 1vw;
+  width: 5vw;
+  height: 2vw; }
+
+.step-2, .step-3 {
+  display: none; }
+
+.job_record_tbl {
+  margin-top: 1vw;
+  width: 45vw; }
+  .job_record_tbl td {
+    text-align: center; }
+
+.prevButton {
+  margin-top: 2vw;
+  margin-left: 1vw;
+  width: 5vw;
+  height: 2vw; }
+
+.btn-close-modal {
+  border: 1px solid #d50000;
+  padding-top: 0.2vw;
+  padding-bottom: 0.2vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  background: #d50000;
+  color: #fff; }
+
+.application-forms-container {
+  margin-top: 2vh;
+  margin-left: 3vw; }
+  .application-forms-container table {
+    margin-top: 5vh;
+    width: 50vw; }
+    .application-forms-container table th {
+      text-align: left; }

@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #607D8B; }
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.justify-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.justify-right {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.student-container {
+  margin-top: 3vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-bottom: 3vh; }
+  .student-container #user_avatar {
+    width: 8vw;
+    padding-left: 2vw;
+    padding-right: 2vw; }
+  .student-container #studentSchoolarship {
+    font-weight: bold; }
+  .student-container #studentName {
+    font-weight: bold;
+    font-size: 1.2vw; }
+  .student-container #enrolledGraduateProgram {
+    font-weight: bold;
+    font-size: 1.5vw; }
+  .student-container .more-info {
+    margin-left: 20vw;
+    margin-right: 20vw; }
+  .student-container #schoolRecords {
+    width: 40vw;
+    margin-left: 3vw; }
+    .student-container #schoolRecords th {
+      text-align: left; }
+  .student-container #jobRecords {
+    width: 40vw;
+    margin-left: 3vw; }
+    .student-container #jobRecords th {
+      text-align: left; }
+
+.card {
+  border: 1px solid #B0BEC5; }
